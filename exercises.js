@@ -47,6 +47,7 @@ var Dog = function(options){
   this.color = 'black';
   this.owner = null;
 
+
   if (options) {
     if (options.hasOwnProperty('hungry')){
       console.log("I'm true");
@@ -98,7 +99,6 @@ Human.prototype.feed = function(animal){
 var sadie = new Dog({
   color: "black",
   hungry: false,
-  owner: 'Mason'
 });
 
 var moonshine = new Dog({
